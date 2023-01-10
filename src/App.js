@@ -1,23 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Landing from './componentes/Landing/Landing';
+import About from './componentes/about me/About';
+import Skill from './componentes/skill/Skill.jsx';
+import Softskill1  from './componentes/SoftSkill/SoftSkill1.jsx';
+import Proyectos from './componentes/proyectos/Proyectos';
+import Contactame from './componentes/contactame/Contactame';
+
+
+
+
+
 
 function App() {
+
+
+
+  
   return (
+
+
+
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+  
+
+      <Landing/>
+      <About/>
+      <Skill/>
+      <Softskill1/>
+      <Proyectos/>
+      <Contactame/>
+ 
+      
+
+
     </div>
   );
 }

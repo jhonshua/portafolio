@@ -1,0 +1,132 @@
+.container > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+
+.titulo{
+
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
+display: flex;
+justify-content: center;
+justify-items: center;
+margin-top: 15%;
+color: #E9C719;
+font-size: 6rem;
+}
+
+
+.cerebro{
+
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  position:absolute;
+  margin-left: 30%;
+  height: 45rem;
+
+}
+
+.titulo1{
+
+  font-family: 'Moon Dance';
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color:  #E9C719;
+  font-size: 6rem;
+  height: 18rem;
+  }
+
+  .titulo3{
+
+    font-family: 'Bakbak One', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rowdies', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: antiquewhite;
+    font-size: 3rem;
+    height: 10rem;
+    width: 70rem;
+    margin-left: 10rem;
+    }
+
+.contenido1{
+
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
+display: flex;
+margin-left: 3rem;
+justify-content: center;
+justify-items: center;
+margin-top: 10rem;
+color: antiquewhite;
+font-size: 3rem;
+
+}
+
+.text {
+  pointer-events: none;
+  justify-content: start !important;
+  font-family: 'Kanit', sans-serif;
+  line-height: 0px;
+  text-transform: uppercase;
+}
+
+
+
+.number {
+  font-size: 300px;
+  color: #545864;
+}
+
+.number span {
+  display: inline-block;
+  position: relative;
+}
+
+.slopeBegin {
+  background-color: #20232f;
+  clip-path: polygon(20% 0, 70% 0, 50% 100%, 0% 100%);
+}
+
+.slopeEnd {
+  clip-path: polygon(70% 0, 100% 0, 80% 100%, 50% 100%);
+}
+
+.slopeBegin,
+.slopeEnd {
+  position: absolute;
+  width: 170%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.pink {
+  background: linear-gradient(to right, deeppink 0%, coral 100%);
+}
+
+.teal {
+  background: linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%);
+}
+
+.tomato {
+  background: linear-gradient(to right, tomato 0%, gold 100%);
+}
+ 
+
+.contenedor{
+  height: 50rem;
+
+}
+
+
+
+ 

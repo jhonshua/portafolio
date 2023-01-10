@@ -1,0 +1,28 @@
+.contenedor1{
+ 
+   
+    justify-items: center;
+    justify-content: center;
+    background-color: #E9C719;
+    background-size: cover;
+    height: 48rem;
+    width: 100%;
+  
+}
+
+
+.imagen{
+    background-image: url('./fondo3.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 48rem;
+    width: 100%;
+    
+  
+}
+

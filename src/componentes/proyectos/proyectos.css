@@ -1,0 +1,156 @@
+
+
+
+
+
+
+.contenedor2proyectos{
+
+    margin-top: 10rem;
+    margin-left: 35rem;
+    margin-bottom: 10rem;
+    display: flex;
+    height: 10rem;
+    width: 20rem;
+    justify-content: center;
+   justify-items: center;
+   
+}
+
+.imagenGit{
+   
+    height: 5rem;
+    width: 5rem;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+
+.imagenGit:hover {
+    transform: scale(1.5);
+  
+}
+
+
+.imagendeproyecto{
+    margin: 1rem;
+    border-radius: 50%;
+    border-color: black;
+    border: thin solid;
+    height:17rem ;
+    width: 17rem;
+    filter: grayscale(100%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+  
+
+}
+
+.imagendeproyecto:hover{
+
+  
+    height:17.5rem ;
+    width: 17.5rem;
+    filter: grayscale(0%);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.contenedordeinformacion{
+
+   margin-top: 5%;
+   width: 50rem;
+   margin-left:25%;
+   font-family: 'Sofia Sans Semi Condensed', sans-serif;
+   display: flex;
+   flex-direction: column;
+  
+
+}
+
+.contenedortitulopagina{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.linea{
+    
+height: 2px;
+ background-color:blueviolet;
+}
+
+.contenido{
+   text-align: center;
+   font-size: 1.5rem;
+
+}
+
+
+.contenedordeproyectos{
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 280rem;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+.contenedorproyecto{
+
+    display: flex;
+    flex-direction: row;
+    width:60rem;
+    height: 19rem;
+    margin-left: 18rem;
+    margin-top: 5rem;
+  
+}
+
+.contenedorinf{
+    margin-left: 5rem;
+}
+
+.logotecnologia{
+    height:2rem ;
+    width: 2rem;
+    margin-top: 3rem;
+}
+
+.titulocontenedor{
+    font-size: 2rem;
+    color: rgb(113, 11, 209);
+    font-family: 'Roboto Slab', serif;
+    margin-top: 1rem;
+}
+
+
+.comentariocontenedor{
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+

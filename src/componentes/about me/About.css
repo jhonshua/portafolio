@@ -1,0 +1,25 @@
+.ContenedorAbout{
+
+    justify-items: center;
+    justify-content: center;
+    background-color: #E9C719;
+    background-size: cover;
+    height: 38rem;
+    width: 100%;
+    
+}
+
+
+
+.titulo6{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+}
+
+
+.contenido4{
+font-family: 'Roboto Slab', serif;
+font-family: 'Sofia Sans Semi Condensed', sans-serif;
+font-size: medium;
+
+}
