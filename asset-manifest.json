@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.5a543f83.css",
+    "main.js": "/portafolio/static/js/main.26b653d9.js",
+    "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
+    "static/media/fondo3.png": "/portafolio/static/media/fondo3.b0582f7bdbaa9378e18d.png",
+    "static/media/rick and morty.png": "/portafolio/static/media/rick and morty.00ae3e5a1235c819c1a1.png",
+    "static/media/aplicacion.png": "/portafolio/static/media/aplicacion.5d3c95a6470c7e3e1686.png",
+    "static/media/cerebro.png": "/portafolio/static/media/cerebro.19da9baeeefb2a96e8e9.png",
+    "static/media/fondoContactame.png": "/portafolio/static/media/fondoContactame.87acf20f0cfcad3fc21c.png",
+    "static/media/react.png": "/portafolio/static/media/react.da363b94e54e6deee792.png",
+    "static/media/github.png": "/portafolio/static/media/github.0e2e3a9bbfe6fda57cbe.png",
+    "static/media/sql.png": "/portafolio/static/media/sql.205c6e1cf88f5fb991e4.png",
+    "static/media/figma.png": "/portafolio/static/media/figma.de9ddc6c2c43c542a17e.png",
+    "static/media/correo.png": "/portafolio/static/media/correo.08faf50832c29185ae0e.png",
+    "static/media/css.png": "/portafolio/static/media/css.74ff0b5fd86f9eadddd3.png",
+    "static/media/react y redux.png": "/portafolio/static/media/react y redux.a05453ce3fe3ce0de779.png",
+    "static/media/git.png": "/portafolio/static/media/git.7e19ced30f7817541e65.png",
+    "static/media/javscript.png": "/portafolio/static/media/javscript.166865dacb77d214f485.png",
+    "static/media/linki.png": "/portafolio/static/media/linki.668fe687f5d2082add1c.png",
+    "static/media/bootstrap.png": "/portafolio/static/media/bootstrap.9016c575b3cb32b2e85c.png",
+    "static/media/pdf.png": "/portafolio/static/media/pdf.9f075d13eaa79d561946.png",
+    "static/media/phothophso.png": "/portafolio/static/media/phothophso.6e051091f57d890bde65.png",
+    "static/media/visual studio.png": "/portafolio/static/media/visual studio.6f964ecc05ea42f5ca33.png",
+    "static/media/postman.png": "/portafolio/static/media/postman.2fb2d4164a7e6eaf6f65.png",
+    "static/media/redux.png": "/portafolio/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/npm.png": "/portafolio/static/media/npm.5904c46fdce9a3192c3b.png",
+    "static/media/sequelize.png": "/portafolio/static/media/sequelize.d98b2554b49e415e0c08.png",
+    "index.html": "/portafolio/index.html",
+    "main.5a543f83.css.map": "/portafolio/static/css/main.5a543f83.css.map",
+    "main.26b653d9.js.map": "/portafolio/static/js/main.26b653d9.js.map",
+    "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a543f83.css",
+    "static/js/main.26b653d9.js"
+  ]
+}
