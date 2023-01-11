@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.dfa5e2f4.css",
-    "main.js": "/portafolio/static/js/main.824be05d.js",
+    "main.js": "/portafolio/static/js/main.f84a6711.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/fondo3.png": "/portafolio/static/media/fondo3.b0582f7bdbaa9378e18d.png",
     "static/media/rick and morty.png": "/portafolio/static/media/rick and morty.00ae3e5a1235c819c1a1.png",
@@ -30,11 +30,11 @@
     "static/media/sequelize.png": "/portafolio/static/media/sequelize.d98b2554b49e415e0c08.png",
     "index.html": "/portafolio/index.html",
     "main.dfa5e2f4.css.map": "/portafolio/static/css/main.dfa5e2f4.css.map",
-    "main.824be05d.js.map": "/portafolio/static/js/main.824be05d.js.map",
+    "main.f84a6711.js.map": "/portafolio/static/js/main.f84a6711.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfa5e2f4.css",
-    "static/js/main.824be05d.js"
+    "static/js/main.f84a6711.js"
   ]
 }
