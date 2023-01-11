@@ -20,6 +20,7 @@ const Contactame = () => {
       <div><img src={correo} className="correologo" alt="" />nombre<input type="text" className="nombre" /><hr /></div> 
       <div>correo<input type="text" className="correo" /><hr /></div>      
       <div>mensaje <input type="text" name="" id="" className="mensaje"/><hr /></div> 
+      
         </form>
 
         <div className='imagenes55'><a href="http://"><img src={linkins} className='linkin' alt="no found" /></a><a href="http://"><img   className='pdf' src={pdf} alt="" /></a></div>

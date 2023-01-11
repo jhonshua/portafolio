@@ -54,14 +54,24 @@ const About = () => {
       <div style={{ height: 600 }}>
         
         <div style={insideStyles}>
-          <div className='titulo6'>Acerca de mi</div>
+          <div className='titulo6'>Acerca de mí</div>
           <div className='contenido4'>
-        <p>Hola me llamo Julio, soy ingeniero electronico y Programados Full-Stack.</p>
-        <p>vivo en Caracars -Venezyela pais lleno de gente amable, de playas y mar caribe.</p>
-        <p>Me considero amable Humanista,  y dispuesto a afrontar nuevos retos.</p>
-        <p>Creo que el trabajo en equipo y la constancia es la clave de el exito.</p>
-        <p>Esperando a esa persona me la oportunidad de pertenecer a su equipo y </p><p> poder demostrar de lo que soy capaz.</p>
-        <p>Me encanta los deportes en especial los sub acuaticos como la apnea.</p>
+<p> Hola me llamo Julio, soy ingeniero electrónico y Programador Full-Stack.</p>
+
+<p>Vivo en Caracas-Venezuela país lleno de gente amable, de playas y montañas.</p> 
+
+ <p> Me considero amable, humanista y dispuesto  afrontar nuevos retos.</p>
+
+ <p>Me encantan los deportes en especial los sub acuáticos como la apnea.</p>        
+
+   <p>Creo que el trabajo en equipo y la constancia es la clave del éxito.</p>     
+
+   <p>  Esperando a esa persona que me de la oportunidad, de pertenecer a su equipo y</p>   
+
+   <p> poder demostrar de lo que soy capaz.</p>    
+
+      
+
          
           </div>
       

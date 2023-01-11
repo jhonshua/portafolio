@@ -19,6 +19,8 @@ font-family: 'Roboto Slab', serif;
 }
 
 
+
+
 .texto1{ 
 
   font-family: 'Roboto Slab', serif;
@@ -38,8 +40,10 @@ font-family: 'Roboto Slab', serif;
 
 .padre{
   background-color: #E9C719;
-  height: 65rem;
-    width: 89rem;
+  height: 75rem;
+  width: 89rem;
+  display: flex;
+  flex-direction: column;
 }
 
 html.is-animating .transition-fade {

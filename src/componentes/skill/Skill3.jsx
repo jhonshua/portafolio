@@ -36,8 +36,8 @@ const Skill3 = () => {
 
     <div class={styles.texto1}>
 
-Como Dev manejo javascript uno de los mas  versatiles lenguajes gracias Node js, <br />
-  podiendo ejecutar programas tanto en frontend como del lado del servidor <br />
+Manejo javascript uno de los mas  versatiles lenguajes gracias Node js, <br />
+  podiendo ejecutarlo en frontend como del lado del servidor back-end<br />
  y realizando conexciones a bases de datos.
 
 </div>

@@ -43,7 +43,7 @@ font-size: 6rem;
 
   .titulo3{
 
-    font-family: 'Bakbak One', cursive;
+font-family: 'Bakbak One', cursive;
 font-family: 'Merriweather', serif;
 font-family: 'Roboto Slab', serif;
 font-family: 'Rowdies', cursive;
@@ -63,6 +63,7 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
 
 font-family: 'Sofia Sans Semi Condensed', sans-serif;
 display: flex;
+flex-direction: column;
 margin-left: 3rem;
 justify-content: center;
 justify-items: center;

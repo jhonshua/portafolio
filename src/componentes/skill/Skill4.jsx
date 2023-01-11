@@ -32,8 +32,9 @@ const Skill4 = () => {
 
 <div class={styles.texto2}>
 
-Como dev tenco conocimiento en  Jvascript y sus librerias pero tambien en herramientas
-que me permiten desarrollar mi actividades y procesos de forma mas comoda.
+Como programador tengo conocimiento en JavaScript y sus librerías pero también en herramientas
+que me permiten desarrollar mi actividades y procesos de forma más cómoda.
+
 
 
 </div>
