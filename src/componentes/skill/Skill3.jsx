@@ -18,10 +18,10 @@ const Skill3 = () => {
   const handleClick = () => {
     api.start({
       from: {
-        x: 60,
+        x: 0,
       },
       to: {
-        x: 700,
+        x: 680,
       },
     })
   }
@@ -45,13 +45,12 @@ Manejo javascript uno de los mas  versatiles lenguajes gracias Node js, <br />
           <animated.div
             onClick={handleClick}
             style={{
-            position:'absolute',
-            background: '#E9C719',
-            height:120,
-            width:700,
-        
+            position:'absolute',  
             ...springs,
             }}
+
+
+            class={styles.cajaLogos3}
             >
               <div class={styles.imagenes}>
                     <img class={styles.img}  src={Imagen12} alt="no found" />

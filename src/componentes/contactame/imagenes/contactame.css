@@ -28,22 +28,38 @@ height: 100vh;
 
 .nombre{
     background:none;
-    border:none;
+    background-color:transparent;
+    width: 20rem;
+    font-size: 2rem;
+    margin-left: 2%;
+    border: transparent;
+    outline:none;
   }
   .correo{
     background:none;
-    border:none;
+    background-color:transparent;
+    width: 20rem;
+    font-size: 2rem;
+    margin-left: 2%;
+    border: transparent;
+    outline:none;
   }
 
   .mensaje{
     background:none;
-    border:none;
+    background-color:transparent;
+    width: 20rem;
+    font-size: 1rem;
+    margin-left: 2%;
+    border: transparent;
+    outline:none;
   }
 
   .correologo{
    margin-right: 1rem;
     height:4rem ;
     width: 4rem;
+  
    
   }
 
@@ -61,3 +77,20 @@ height: 100vh;
   }
 
  
+@media only screen and (max-width: 1370px) {
+
+
+  .contactame{
+
+    font-size: 2rem;
+    margin-right: 25rem;
+    height: 20rem;
+    width:35%;
+    margin-left: 25rem;
+    
+ 
+    
+}
+  
+  
+}

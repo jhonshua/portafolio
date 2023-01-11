@@ -19,10 +19,10 @@ const Skill = () => {
   const handleClick = () => {
     api.start({
       from: {
-        x: 60,
+        x: 0,
       },
       to: {
-        x: 700,
+        x: 680,
       },
     })
   }
@@ -37,22 +37,22 @@ const Skill = () => {
       
           <div class={styles.texto1}>
 
-                Como Dev front-end creo interfaz gráfica de usuario de los sitio web, <br />
-                  mediante el uso de HTML, CSS y JavaScript, para que los clientes puedan ver e <br />
-              interactuar con las aplicaciones.
+              Como Dev front-end creo interfaz gráfica de usuario de los sitio web, <br />
+              mediante el uso de HTML, CSS y JavaScript, para que los clientes puedan <br />
+              ver e interactuar con las aplicaciones.
 
           </div>
  
           <animated.div
             onClick={handleClick}
             style={{
-            position:'absolute',
-            background: '#E9C719',
-            height:120,
-            width:700,
-        
+            position:'absolute',  
             ...springs,
             }}
+
+
+            class={styles.cajaLogos}
+
             >
               <div class={styles.imagenes}>
                     <img class={styles.img}  src={Imagen1} alt="no found" />

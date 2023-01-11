@@ -58,7 +58,7 @@ const About = () => {
           <div className='contenido4'>
 <p> Hola me llamo Julio, soy ingeniero electrónico y Programador Full-Stack.</p>
 
-<p>Vivo en Caracas-Venezuela país lleno de gente amable, de playas y montañas.</p> 
+<p>Vivo en Caracas-Venezuela país lleno de gente amable, playas y montañas.</p> 
 
  <p> Me considero amable, humanista y dispuesto  afrontar nuevos retos.</p>
 

@@ -19,7 +19,7 @@ const Skill4 = () => {
         x: -700,
       },
       to: {
-        x: -1400,
+        x: -1300,
       },
     })
   }
@@ -30,7 +30,7 @@ const Skill4 = () => {
 
 <div class={styles.conatiner1}>
 
-<div class={styles.texto2}>
+<div class={styles.texto4}>
 
 Como programador tengo conocimiento en JavaScript y sus librerías pero también en herramientas
 que me permiten desarrollar mi actividades y procesos de forma más cómoda.
@@ -48,12 +48,12 @@ que me permiten desarrollar mi actividades y procesos de forma más cómoda.
             position:'absolute',
             background: '#E9C719',
             height:120,
-            width:700, 
+            width:680, 
             justifyItems: 'flex-end', 
             ...springs,
             }}
             >
-              <div class={styles.imagenes}>
+              <div class={styles.imagenes4}>
                     <img class={styles.img}  src={Imagen11} alt="no found" />
                     <img class={styles.img}  src={Imagen12} alt="no found" />
                     <img class={styles.img}  src={Imagen13} alt="no found" />

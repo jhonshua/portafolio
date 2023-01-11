@@ -10,17 +10,17 @@ import  Imagen11 from './imagenes/bootstrap.png';
 const Skill2 = () => {
 
   const [springs, api] = useSpring(() => ({
-    from: { x: -700 },
+    from: { x: -610 },
   }))
 
 
   const handleClick = () => {
     api.start({
       from: {
-        x: -700,
+        x: -610,
       },
       to: {
-        x: -1400,
+        x: -1300,
       },
     })
   }
@@ -33,7 +33,7 @@ const Skill2 = () => {
 
 <div class={styles.texto2}>
 
-manejo diversas librerias de javascript para el esarrollo de Las interfaz   <br />
+manejo diversas librerias de javascript para el esarrollo de Las interfaz   
 tratando de mantenerme actualizado para mediante mis diseños
 llevando la esperiencias de usario a su mas alto nivel
 
@@ -43,18 +43,18 @@ llevando la esperiencias de usario a su mas alto nivel
 
     <div class={styles.container2}>
      
-          <animated.div
+    <animated.div
             onClick={handleClick}
             style={{
-            position:'absolute',
-            background: '#E9C719',
-            height:120,
-            width:700, 
-            justifyItems: 'flex-end', 
+            position:'absolute',  
             ...springs,
             }}
+
+
+            class={styles.cajaLogos2}
+
             >
-              <div class={styles.imagenes}>
+              <div class={styles.imagenes2}>
                     <img class={styles.img}  src={Imagen7} alt="no found" />
                     <img class={styles.img}  src={Imagen8} alt="no found" />
                     <img class={styles.img}  src={Imagen10} alt="no found" />

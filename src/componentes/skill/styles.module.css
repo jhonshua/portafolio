@@ -26,10 +26,24 @@ font-family: 'Roboto Slab', serif;
   font-family: 'Roboto Slab', serif;
   font-size:1rem ; 
   margin-left: 4rem;
+  margin-top: 4%;
 
 }
 
 .texto2{ 
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 50rem;
+  font-family: 'Roboto Slab', serif;
+  font-size:1rem ; 
+
+ 
+
+}
+
+.texto4{ 
+  margin-top: 2%;
+  margin-right: 2%;
   margin-left: 50rem;
   font-family: 'Roboto Slab', serif;
   font-size:1rem ; 
@@ -41,7 +55,7 @@ font-family: 'Roboto Slab', serif;
 .padre{
   background-color: #E9C719;
   height: 75rem;
-  width: 89rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -87,4 +101,90 @@ width: 7rem;
 .imagenes{
   display: flex;
   flex-direction: row;
+  background-color: #E9C719;
+
+  
 }
+
+.imagenes2{
+  display: flex;
+  flex-direction: row;
+  background-color: #E9C719;
+  width: 95%;
+
+  
+}
+
+
+.imagenes4{
+  display: flex;
+  flex-direction: row;
+  background-color: #E9C719;
+  width: 95%;
+
+  
+}
+
+.cajaLogos{
+ 
+background-color:transparent;
+height:120px;
+width: 48%;
+  }
+
+  .cajaLogos2{
+ 
+    background-color:transparent;
+    height:120px;
+    width: 45%;
+  
+      }
+
+
+      .cajaLogos3{
+ 
+        background-color:transparent;
+        height:120px;
+        width: 45%;
+      
+          }
+
+
+  @media only screen and (max-width: 1370px) {
+
+ 
+.imagenes{
+  display: flex;
+  flex-direction: row;
+  background-color: #E9C719;
+  width:40rem ;
+  
+}
+
+.imagenes2{
+  display: flex;
+  flex-direction: row;
+  background-color: #E9C719;
+
+  
+}
+
+.cajaLogos2{
+ 
+  background-color:transparent;
+  height:120px;
+  width: 45%;
+    }
+
+    .imagenes4{
+  display: flex;
+  flex-direction: row;
+  background-color: #E9C719;
+  width: 95%;
+
+  
+}
+
+
+
+    }

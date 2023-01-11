@@ -1,7 +1,62 @@
+.contenedordeproyectos{
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 150rem;
+    width: 100%;
+    
+
+  
 
 
+}
 
 
+.contenedordeinformacion{
+
+   
+    width: 50rem;
+    margin-left:25%;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+ 
+ }
+
+
+ .contenedortitulopagina{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.contenido{
+    text-align: center;
+    font-size: 1.5rem;
+ 
+ }
+
+
+ 
+.contenedorproyecto{
+
+    display: flex;
+    flex-direction: row;
+    width:60rem;
+    height: 19rem;
+    margin-left: 18rem;
+    margin-top: 20%;
+  
+}
+ 
 
 
 .contenedor2proyectos{
@@ -71,27 +126,9 @@
 }
 
 
-.contenedordeinformacion{
 
-   margin-top: 5%;
-   width: 50rem;
-   margin-left:25%;
-   font-family: 'Sofia Sans Semi Condensed', sans-serif;
-   display: flex;
-   flex-direction: column;
-  
 
-}
 
-.contenedortitulopagina{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    width: 100%;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    font-family: 'Roboto Slab', serif;
-}
 
 
 .linea{
@@ -100,35 +137,14 @@ height: 2px;
  background-color:blueviolet;
 }
 
-.contenido{
-   text-align: center;
-   font-size: 1.5rem;
-
-}
 
 
-.contenedordeproyectos{
-    justify-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    height: 140rem;
-    width: 100%;
-    background-color: white;
 
 
-}
 
-.contenedorproyecto{
 
-    display: flex;
-    flex-direction: row;
-    width:60rem;
-    height: 19rem;
-    margin-left: 18rem;
-    margin-top: 5rem;
-  
-}
+
+
 
 .contenedorinf{
     margin-left: 5rem;
@@ -157,7 +173,36 @@ height: 2px;
 
 
 
+@media only screen and (max-width: 1370px) {
 
+    .contenedordeproyectos{
+        justify-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        height: 160rem;
+        width: 100%;
+       
+    
+    
+    }
+
+
+    .contenedordeinformacion{
+
+   
+        width: 50rem;
+        margin-left:25%;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0%;
+     
+     }
+
+    
+    
+  }
 
 
 
