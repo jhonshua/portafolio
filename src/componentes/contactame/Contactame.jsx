@@ -20,7 +20,7 @@ const Contactame = () => {
       <div><img src={correo} className="correologo" />nombre<input type="text" name="name" className="nombre" required/><hr /></div> 
       <div>correo<input type="text" name="correo" className="correo" required/><hr /></div>      
       <div>mensaje <input type="text" name="mensaje"  className="mensaje" required/><hr /></div> 
-      <input type="hidden" name='_next' value="jhonshua.github.io/portafolio/" />
+      <input type="hidden" name='_next' value="https://jhonshua.github.io/portafolio/" />
       <input type="hidden" name='_captcha' value="false" />
       <button type="submit" class="btn btn-secondary">enviar</button>
         </form>
