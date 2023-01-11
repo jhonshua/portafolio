@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.da4febf9.css",
-    "main.js": "/portafolio/static/js/main.d7b1b1e8.js",
+    "main.css": "/portafolio/static/css/main.8473e3ff.css",
+    "main.js": "/portafolio/static/js/main.9a2aef00.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/fondo3.png": "/portafolio/static/media/fondo3.b0582f7bdbaa9378e18d.png",
     "static/media/rick and morty.png": "/portafolio/static/media/rick and morty.00ae3e5a1235c819c1a1.png",
@@ -29,12 +29,12 @@
     "static/media/npm.png": "/portafolio/static/media/npm.5904c46fdce9a3192c3b.png",
     "static/media/sequelize.png": "/portafolio/static/media/sequelize.d98b2554b49e415e0c08.png",
     "index.html": "/portafolio/index.html",
-    "main.da4febf9.css.map": "/portafolio/static/css/main.da4febf9.css.map",
-    "main.d7b1b1e8.js.map": "/portafolio/static/js/main.d7b1b1e8.js.map",
+    "main.8473e3ff.css.map": "/portafolio/static/css/main.8473e3ff.css.map",
+    "main.9a2aef00.js.map": "/portafolio/static/js/main.9a2aef00.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da4febf9.css",
-    "static/js/main.d7b1b1e8.js"
+    "static/css/main.8473e3ff.css",
+    "static/js/main.9a2aef00.js"
   ]
 }
