@@ -10,14 +10,14 @@ import  Imagen11 from './imagenes/bootstrap.png';
 const Skill2 = () => {
 
   const [springs, api] = useSpring(() => ({
-    from: { x: -610 },
+    from: { x: -630 },
   }))
 
 
   const handleClick = () => {
     api.start({
       from: {
-        x: -610,
+        x: -630,
       },
       to: {
         x: -1300,
