@@ -17,11 +17,21 @@ const Contactame = () => {
 
               <form action="https://formsubmit.co/julio.llinas@gmail.com" method="POST" className="contactame" >
 
+<<<<<<< HEAD
             <div><img src={correo} className="correologo" />nombre<input type="text" name="name" className="nombre" required/><hr /></div> 
             <div>correo<input type="text" name="correo" className="correo" required/><hr /></div>      
             <div>mensaje <input type="text" name="mensaje"  className="mensaje" required/><hr /></div> 
             <input type="hidden" name='_next' value="https://jhonshua.github.io/portafolio/" />
             <input type="hidden" name='_captcha' value="false" />
+=======
+      <div><img src={correo} className="correologo" />nombre<input type="text" name="name" className="nombre" required/><hr /></div> 
+      <div>correo<input type="text" name="correo" className="correo" required/><hr /></div>      
+      <div>mensaje <input type="text" name="mensaje"  className="mensaje" required/><hr /></div> 
+      <input type="hidden" name='_next' value="https://jhonshua.github.io/portafolio/" />
+      <input type="hidden" name='_captcha' value="false" />
+      <button type="submit" class="btn btn-secondary">enviar</button>
+        </form>
+>>>>>>> 87b41c0e3f65b76c303b9d26baee18b08ddf8993
 
             <button type="submit" className="btn btn-secondary">enviar</button>
             
