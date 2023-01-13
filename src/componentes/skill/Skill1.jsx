@@ -22,7 +22,7 @@ const Skill = () => {
         x: 0,
       },
       to: {
-        x: 680,
+        x: 630,
       },
     })
   }
@@ -37,13 +37,17 @@ const Skill = () => {
       
           <div class={styles.texto1}>
 
-              Como Dev front-end creo interfaz gráfica de usuario de los sitio web, <br />
-              mediante el uso de HTML, CSS y JavaScript, para que los clientes puedan <br />
+              Como Dev front-end creo interfaz gráfica de usuario de los sitio web, 
+              mediante el uso de HTML, CSS y JavaScript, para que los clientes puedan 
               ver e interactuar con las aplicaciones.
 
           </div>
- 
-          <animated.div
+
+      
+
+
+
+ <animated.div
             onClick={handleClick}
             style={{
             position:'absolute',  
@@ -51,7 +55,7 @@ const Skill = () => {
             }}
 
 
-            class={styles.cajaLogos}
+           
 
             >
               <div class={styles.imagenes}>
@@ -63,6 +67,17 @@ const Skill = () => {
                                           
               </div >
           </animated.div>
+
+
+
+          
+        
+ 
+         
+
+
+
+
     </div>
 
 <br />

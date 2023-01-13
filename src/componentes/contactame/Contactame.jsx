@@ -25,7 +25,7 @@ const Contactame = () => {
             <button type="submit" className="btn btn-secondary">enviar</button>
             
               </form>
-              <div className='imagenes55'>  <a href="https://www.linkedin.com/feed/" target="_blank" alt="no found"><img src={linkins} className='linkin' alt="no found" /></a> <a href="https://drive.google.com/file/d/1VSRmz8hbn7NYHF1xGBTBiHnNyK1cnh9m/view?usp=share_link"  target="_blank"><img   className='pdf' src={pdf} alt="no found" /></a></div>
+              <div className='imagenes55'>  <a href="https://www.linkedin.com/in/julio-cesar-llinas-ba65a6127/" target="_blank" alt="no found"><img src={linkins} className='linkin' alt="no found" /></a> <a href="https://drive.google.com/file/d/1VSRmz8hbn7NYHF1xGBTBiHnNyK1cnh9m/view?usp=share_link"  target="_blank"><img   className='pdf' src={pdf} alt="no found" /></a></div>
     
 </div>
 

@@ -10,7 +10,8 @@ background-color: #E9C719;
 display: flex;
 justify-content: center;
 justify-items: center;
-margin: 5rem;
+margin-bottom: 10%;;
+
 
 
 font-family: 'Roboto Slab', serif;
@@ -27,26 +28,41 @@ font-family: 'Roboto Slab', serif;
   font-size:1rem ; 
   margin-left: 4rem;
   margin-top: 4%;
-
+  height:80%;
+  width:50vh;
 }
 
 .texto2{ 
-  margin-top: 2%;
-  margin-right: 2%;
-  margin-left: 50rem;
+
+margin-left: 45rem;
+font-family: 'Roboto Slab', serif;
+font-size:1rem ; 
+height:80%;
+width:50vh;
+
+}
+
+.texto3{ 
+ 
+
   font-family: 'Roboto Slab', serif;
   font-size:1rem ; 
+  margin-left: 5%;
+  height:80%;
+  width:75vh;
 
- 
 
 }
 
 .texto4{ 
-  margin-top: 2%;
-  margin-right: 2%;
-  margin-left: 50rem;
+ 
+
+  margin-right: 4%;
+  margin-left: 65%;
   font-family: 'Roboto Slab', serif;
   font-size:1rem ; 
+  height:85%;
+  width:80vh;
 
  
 
@@ -119,8 +135,8 @@ width: 7rem;
 .imagenes4{
   display: flex;
   flex-direction: row;
-  background-color: #E9C719;
   width: 95%;
+ 
 
   
 }
@@ -128,15 +144,17 @@ width: 7rem;
 .cajaLogos{
  
 background-color:transparent;
-height:120px;
-width: 50%;
+height:140px;
+width: 40%;
+background-color: #E9C719;
   }
 
   .cajaLogos2{
- 
+    margin-left: 10%;
     background-color:transparent;
-    height:120px;
-    width: 45%;
+    height:130px;
+    width: 48%;
+    background-color: #E9C719;
   
       }
 
@@ -145,46 +163,55 @@ width: 50%;
  
         background-color:transparent;
         height:120px;
-        width: 45%;
+        width: 48%;
       
           }
 
 
-  @media only screen and (max-width: 1370px) {
+  @media only screen and (min-width: 1370px) {
 
  
-.imagenes{
-  display: flex;
-  flex-direction: row;
-  background-color: #E9C719;
-  width:40rem ;
-  
-}
-
-.imagenes2{
-  display: flex;
-  flex-direction: row;
-  background-color: #E9C719;
-
-  
-}
-
-.cajaLogos2{
- 
-  background-color:transparent;
-  height:120px;
-  width: 45%;
+  .cajaLogos2{
+   margin-left: 5%;
+   background-color:transparent;
+   height:130px;
+   width: 45%;
+   background-color: #E9C719;
+    
     }
 
-    .imagenes4{
-  display: flex;
-  flex-direction: row;
-  background-color: #E9C719;
-  width: 95%;
 
-  
-}
+    .texto2{ 
 
+    margin-left: 47rem;
+    font-family: 'Roboto Slab', serif;
+    font-size:1rem ; 
+    height:80%;
+    width:50vh;
+         
+          
+    }
+  }
+
+
+
+
+
+  @media only screen and (max-width: 480px) {
+
+
+    .Skill{
+      display: none;
+    }
+
+    .padre{
+
+
+   background-image: url('./Rectangle\ 2.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:contain;
+    }
 
 
     }

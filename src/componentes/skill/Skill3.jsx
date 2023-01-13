@@ -21,7 +21,7 @@ const Skill3 = () => {
         x: 0,
       },
       to: {
-        x: 680,
+        x: 620,
       },
     })
   }
@@ -34,10 +34,10 @@ const Skill3 = () => {
   
     <div class={styles.container2}>
 
-    <div class={styles.texto1}>
+    <div class={styles.texto3}>
 
-Manejo javascript uno de los mas  versatiles lenguajes gracias Node js, <br />
-podiendo ejecutarlo en frontend como del lado del servidor back-end<br />
+Manejo javascript uno de los mas  versatiles lenguajes gracias Node js, 
+podiendo ejecutarlo en frontend como del lado del servidor back-end
 y realizando conexciones a bases de datos.
 
 </div>

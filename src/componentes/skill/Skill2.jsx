@@ -20,7 +20,7 @@ const Skill2 = () => {
         x: -630,
       },
       to: {
-        x: -1300,
+        x: -1200,
       },
     })
   }
@@ -33,9 +33,9 @@ const Skill2 = () => {
 
 <div class={styles.texto2}>
 
-manejo diversas librerias de javascript para el esarrollo de Las interfaz   
-tratando de mantenerme actualizado para mediante mis diseños
-llevando la esperiencias de usario a su mas alto nivel
+manejo diversas librerias de javascript para el esarrollo 
+de Las interfaz para mediante mis diseños llevando la 
+esperiencias de usario a su mas alto nivel
 
 
 </div>

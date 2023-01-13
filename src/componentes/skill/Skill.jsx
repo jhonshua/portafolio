@@ -10,10 +10,14 @@ const Skill = () => {
     <div class={styles.padre}>
 
       <div class={styles.tituloSkill}>Skill</div>
+
+<div class={styles.Skill}>
       <Skill1/><br /><br /><br /><br />
       <Skill2/><br /><br /><br />
       <Skill3/><br /><br /><br />
       <Skill4/>
+</div>
+
     </div>
   )
 }
