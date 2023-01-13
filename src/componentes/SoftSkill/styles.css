@@ -26,7 +26,7 @@ font-size: 6rem;
   justify-content: center;
   position:absolute;
   margin-left: 25%;
-  height: 45rem;
+  height: 80%;
 
 }
 
@@ -42,21 +42,16 @@ font-size: 6rem;
   }
 
   .titulo3{
-
-font-family: 'Bakbak One', cursive;
-font-family: 'Merriweather', serif;
-font-family: 'Roboto Slab', serif;
-font-family: 'Rowdies', cursive;
-font-family: 'Shrikhand', cursive;
-font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
     display: flex;
     justify-content: center;
     justify-items: center;
     color: antiquewhite;
     font-size: 3rem;
-    height: 10rem;
-    width: 70rem;
-    margin-left: 10rem;
+    height: 100%;
+    width: 70%;
+    margin-left: 15%;
+    text-align:center;
     }
 
 .contenido1{
@@ -64,13 +59,15 @@ font-family: 'Sofia Sans Semi Condensed', sans-serif;
 font-family: 'Sofia Sans Semi Condensed', sans-serif;
 display: flex;
 flex-direction: column;
-margin-left: 3rem;
 justify-content: center;
 justify-items: center;
-margin-top: 10rem;
+margin-top: 5%;
+margin-bottom: 15%;
 color: antiquewhite;
 font-size: 3rem;
-
+text-align:center;
+width: 70%;
+margin-left: 15%;
 }
 
 .text {
@@ -130,12 +127,60 @@ font-size: 3rem;
 
 
 
-@media only screen and (max-width: 1370px) {
+@media only screen and (max-width: 480px) {
 
   .contenedor{
-    height: 35rem;
+    height: 30rem;
   
   }
   
+.titulo{
+
+  font-size: 3rem;
+  }
+
+
+  .cerebro{
+  margin-left: 10%;
+  height: 50%;
   
+  }
+
+  
+.titulo1{
+
+ margin-top: 10%;
+ margin-bottom: 0%;
+  font-size: 2rem;
+  height: 50%;
+  margin-left: 25%;
+  }
+
+
+  .titulo3{
+   margin-top: 0;
+    font-size: 1rem;
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 0;
+ 
+    }
+ 
+    
+    .contenido1{
+
+     
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      margin-top: 5%;
+      margin-bottom: 15%;
+      color: antiquewhite;
+      font-size: 1rem;
+      text-align:center;
+      width: 70%;
+      margin-left: 15%;
+      }
+
 }

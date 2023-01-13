@@ -26,3 +26,20 @@
   
 }
 
+@media only screen and (max-width: 480px) {
+
+ 
+    .imagen{
+        background-image: url('./portadacolores1.png');
+        height: 100vh;
+        width: 100%;   
+    }
+
+    .contenedor1{
+        background-color: #faf9f7;    
+        height: 100%;
+        width: 100%;
+      
+    }
+
+}

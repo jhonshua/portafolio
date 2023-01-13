@@ -1,96 +1,137 @@
 .contenedorContactame{
 
-
-background-image: url('./fondoContactame.png');
 display: flex;
 flex-direction: column;
-justify-items: center;
 justify-content: center;
-background-size:cover;
-background-repeat: no-repeat;
+justify-items: center;
+background-image: url("./fondoContactame.png");
 background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 height: 100vh;
+
+
 
 }
 
 
 .contactame{
 
-    font-size: 2rem;
-    margin-right: 25rem;
-    height: 20rem;
-    width: 35rem;
-    margin-left: 25rem;
-    
- 
-    
+margin-top: 25vh;
+margin-left: 40vh;
+height: 40vh;
+width: 60vh;
+font-size: 3vh;
+
+
 }
+
+
+.correologo{
+  height: 5vh;
+  margin: 1rem;
+}
+
 
 .nombre{
-    background:none;
-    background-color:transparent;
-    width: 20rem;
-    font-size: 2rem;
-    margin-left: 2%;
-    border: transparent;
-    outline:none;
-  }
-  .correo{
-    background:none;
-    background-color:transparent;
-    width: 20rem;
-    font-size: 2rem;
-    margin-left: 2%;
-    border: transparent;
-    outline:none;
-  }
+  border: transparent;
+  outline:none;
+  background-color: transparent;
+}
 
-  .mensaje{
-    background:none;
-    background-color:transparent;
-    width: 20rem;
-    font-size: 1rem;
-    margin-left: 2%;
-    border: transparent;
-    outline:none;
-  }
+.mensaje{
 
-  .correologo{
-   margin-right: 1rem;
-    height:4rem ;
-    width: 4rem;
-  
-   
-  }
+  border: transparent;
+  outline:none;
+  background-color: transparent;
+
+}
+
+.correo{
+
+  border: transparent;
+  outline:none;
+  background-color: transparent;
+
+}
+
+.imagenes55{
+
+  margin-left: 60vh;
+  height: 10vh;
+  width: 20vh;
 
 
-  .linkin{
-    height:4rem ;
-    width: 4rem;
-    margin-left: 40rem;
-  }
-  
-  .pdf{
-    margin-left: 1rem;
-    height:4rem ;
-    width: 4rem;
-  }
+}
+
+.linkin{
+  height: 6vh;
+  margin: 1rem;
+}
+
+.pdf{
+ 
+  height: 6vh;
+}
+
+
 
  
-@media only screen and (max-width: 1370px) {
-
+@media only screen and (max-width: 480px) {
 
   .contactame{
+    margin-left: 0vh;
+    margin-top: 25vh;
+    height: 70vh;
+    width: 60vh;
+    
+    }
 
-    font-size: 2rem;
-    margin-right: 25rem;
-    height: 20rem;
-    width:35%;
-    margin-left: 25rem;
-    
+
+    .imagenes55{
+      margin-bottom: 5vh;
+      margin-left: 0vh;
+      width: 30vh;
+      } 
+  }
+
+  .imagenes55{
+    margin-bottom: 25vh;
+    margin-left: 30vh;
+    width: 30vh;
+    } 
+
+
  
+@media only screen and (max-width: 780px) {
+
+     .contactame{
+    margin-left: 0vh;
+    margin-top: 25vh;
+    height: 70vh;
+    width: 60vh;
     
-}
+    }
+  
+    
+  }
+
+
+
+
+
+@media only screen and (min-width: 1400px) {
+
+  .imagenes55{
+margin-left: 70vh;
+width: 30vh;
+}  
+
+
+.contactame{
+  margin-left: 50vh;
+  
+  }
   
   
 }
