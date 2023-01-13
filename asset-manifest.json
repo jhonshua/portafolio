@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.a1e83cf8.css",
+    "main.css": "/portafolio/static/css/main.9e136b46.css",
     "main.js": "/portafolio/static/js/main.e3379cb4.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/fondo3.png": "/portafolio/static/media/fondo3.b0582f7bdbaa9378e18d.png",
@@ -8,7 +8,7 @@
     "static/media/rick and morty.png": "/portafolio/static/media/rick and morty.00ae3e5a1235c819c1a1.png",
     "static/media/aplicacion.png": "/portafolio/static/media/aplicacion.5d3c95a6470c7e3e1686.png",
     "static/media/cerebro.png": "/portafolio/static/media/cerebro.19da9baeeefb2a96e8e9.png",
-    "static/media/fondoContactame.png": "/portafolio/static/media/fondoContactame.87acf20f0cfcad3fc21c.png",
+    "static/media/Group 1.png": "/portafolio/static/media/Group 1.dc5ab69508f4437be99d.png",
     "static/media/react.png": "/portafolio/static/media/react.da363b94e54e6deee792.png",
     "static/media/GitHub1.png": "/portafolio/static/media/GitHub1.a219fbca80674c28763a.png",
     "static/media/github.png": "/portafolio/static/media/github.0e2e3a9bbfe6fda57cbe.png",
@@ -31,12 +31,12 @@
     "static/media/npm.png": "/portafolio/static/media/npm.5904c46fdce9a3192c3b.png",
     "static/media/sequelize.png": "/portafolio/static/media/sequelize.d98b2554b49e415e0c08.png",
     "index.html": "/portafolio/index.html",
-    "main.a1e83cf8.css.map": "/portafolio/static/css/main.a1e83cf8.css.map",
+    "main.9e136b46.css.map": "/portafolio/static/css/main.9e136b46.css.map",
     "main.e3379cb4.js.map": "/portafolio/static/js/main.e3379cb4.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1e83cf8.css",
+    "static/css/main.9e136b46.css",
     "static/js/main.e3379cb4.js"
   ]
 }
