@@ -66,7 +66,7 @@ const About = () => {
 
    <p>Creo que el trabajo en equipo y la constancia es la clave del éxito.</p>     
 
-   <p>  Esperando a esa persona que me de la oportunidad, de pertenecer a su equipo y</p>   
+   <p>Esperando a esa persona que me de la oportunidad, de pertenecer a su equipo y</p>   
 
    <p> poder demostrar de lo que soy capaz.</p>    
 
