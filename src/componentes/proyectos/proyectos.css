@@ -173,6 +173,7 @@ height: 2px;
 
     .contenedorinf{
         display:none;
+        margin-top:10rem ;
     }
     
 
@@ -221,6 +222,17 @@ height: 2px;
 
       
     }
+
+
+    .contenedordeinformacion{
+
+     margin-top: 15rem;
+        width: 100%;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        display: flex;
+        flex-direction: column;
+       
+     }
   
     
     }
