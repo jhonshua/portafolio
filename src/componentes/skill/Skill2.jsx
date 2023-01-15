@@ -33,9 +33,9 @@ const Skill2 = () => {
 
 <div class={styles.texto2}>
 
-manejo diversas librerias de javascript para el esarrollo 
-de Las interfaz para mediante mis diseños llevando la 
-esperiencias de usario a su mas alto nivel
+Manejo diversas librerias de javascript para el desarrollo 
+de la interfaz para mediante mis diseños llevando la 
+experiencia de usario a su mas alto nivel.
 
 
 </div>

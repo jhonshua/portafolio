@@ -8,10 +8,12 @@ import aplicacion from './imagenes/aplicacion.png';
 import pomodoro from './imagenes/proyecto2.png'
 import reactyredux from './imagenes/react y redux.png';
 import bootstrap from './imagenes/bootstrap.png';
+import typescrip from './imagenes/TypeScript Logo Vector.png'
 import node from './imagenes/node.png';
 import Figma from './imagenes/figma.png';
 import react1 from './imagenes/react.png';
 import Visual from './imagenes/visual studio.png'
+import Clima from './imagenes/clima.png'
 
 
 const Proyectos = () => {
@@ -76,6 +78,28 @@ const Proyectos = () => {
           Consumir api mediante React-js, se implementarón estilos con bootstrap.
           Se trabajaron los estados con la libreria redux.
           Al finalizar el proyecto se aprendió más de estas tecnologias, este proyecto esta más dirigido al frontend.
+        </div><hr />
+    </div>
+
+</div>
+
+
+
+
+
+
+<div className='contenedorproyecto' >
+
+<div> <a href="https://jhonshua.github.io/App-Clima/" target="_blank"><img className='imagendeproyecto' src={Clima} alt="" /></a></div> 
+      
+      <div className='contenedorinf'>
+        <div className='imgminiatura'> <img className='logotecnologia' src={bootstrap} alt="no found" /><img className='logotecnologia' src={typescrip} alt=" no found" /><img className='logotecnologia' src={react1} alt="no found" /></div>
+        <div className='titulocontenedor'>App - Clima</div>
+        <div className='comentariocontenedor'>
+          Consumir api mediante React-js, se implementarón estilos con bootstrap.
+          Al finalizar el proyecto se aprendió más de estas tecnologias utilizadas,
+          y de los diseños responsive.
+          este proyecto esta más dirigido al frontend.
         </div><hr />
     </div>
 

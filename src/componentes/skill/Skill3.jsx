@@ -38,7 +38,7 @@ const Skill3 = () => {
 
 Manejo javascript uno de los mas  versatiles lenguajes gracias Node js, 
 podiendo ejecutarlo en frontend como del lado del servidor back-end
-y realizando conexciones a bases de datos.
+y realizando conexiones a bases de datos.
 
 </div>
      
