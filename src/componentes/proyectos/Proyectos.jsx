@@ -12,8 +12,20 @@ import typescrip from './imagenes/TypeScript Logo Vector.png'
 import node from './imagenes/node.png';
 import Figma from './imagenes/figma.png';
 import react1 from './imagenes/react.png';
-import Visual from './imagenes/visual studio.png'
-import Clima from './imagenes/clima.png'
+import Visual from './imagenes/visual studio.png';
+import Clima from './imagenes/clima.png';
+import convercion from './imagenes/convercio.png'
+import food from'./imagenes/food.png';
+import sql from './imagenes/pngwing.com (6).png';
+import webpack from './imagenes/wedpack.png';
+import npm from './imagenes/npm.png';
+import veu from './imagenes/vue.png';
+import git from './imagenes/git.png';
+import mysql from './imagenes/mysql.png' 
+import javascript from './imagenes/javascript.png'
+
+
+
 
 
 const Proyectos = () => {
@@ -34,6 +46,26 @@ const Proyectos = () => {
 
   </div>
 
+
+
+
+  <div className='contenedorproyecto' >
+
+<div> <a href="https://deploy-jet-seven.vercel.app/" target="_blank"><img className='imagendeproyecto' src={food} alt="" /></a></div> 
+      
+      <div className='contenedorinf'>
+        <div className='imgminiatura'> <img className='logotecnologia' src={reactyredux} alt="no found" /><img className='logotecnologia' src={sql} alt=" no found" /><img className='logotecnologia' src={webpack} alt="no found" /><img className='logotecnologia' src={npm} alt="no found" /></div>
+        <div className='titulocontenedor'>App - araecetas</div>
+        <div className='comentariocontenedor'>
+        Construir una App utlizando React, Redux, Node y Sequelize. 
+        Afirmar y conectar los conceptos aprendidos en la carrera.
+        Aprender y practicar el workflow de GIT.
+        Usar y practicar testing.
+        El boilerplate cuenta con dos carpetas: api y client. En estas carpetas estará el código del back-end y el front-end respectivamente.(el codigo se puede ver en el enlace de mi github)
+        </div><hr />
+    </div>
+
+</div>
                 
   <div className='contenedorproyecto' >
 
@@ -57,7 +89,7 @@ const Proyectos = () => {
 <div> <a href="https://jhonshua.github.io/lista_to-do-react/" target="_blank"><img className='imagendeproyecto' src={aplicacion} alt="" /></a></div> 
       
       <div className='contenedorinf' id="test1">
-        <div className='imgminiatura'> <img className='logotecnologia' src={GitHub1} alt="no found" /><img className='logotecnologia' src={bootstrap} alt=" no found" /><img className='logotecnologia' src={Figma} alt="no found" /><img className='logotecnologia' src={react1} alt=" no found" /></div>
+        <div className='imgminiatura'> <img className='logotecnologia' src={mysql} alt="no found" /><img className='logotecnologia' src={bootstrap} alt=" no found" /><img className='logotecnologia' src={Figma} alt="no found" /><img className='logotecnologia' src={veu} alt=" no found" /></div>
         <div className='titulocontenedor'>Lista de tareas javascript</div>
         <div className='comentariocontenedor'>
           Programación bajo entorno de javascript, manejo de useState React, manejo de los hook react , formulario y filtros . Maquetacion y manejo de diversas herramientas de diseño.
@@ -93,7 +125,7 @@ const Proyectos = () => {
 <div> <a href="https://jhonshua.github.io/App-Clima/" target="_blank"><img className='imagendeproyecto' src={Clima} alt="" /></a></div> 
       
       <div className='contenedorinf'>
-        <div className='imgminiatura'> <img className='logotecnologia' src={bootstrap} alt="no found" /><img className='logotecnologia' src={typescrip} alt=" no found" /><img className='logotecnologia' src={react1} alt="no found" /></div>
+        <div className='imgminiatura'> <img className='logotecnologia' src={javascript} alt="no found" /> <img className='logotecnologia' src={bootstrap} alt="no found" /><img className='logotecnologia' src={typescrip} alt=" no found" /><img className='logotecnologia' src={react1} alt="no found" /></div>
         <div className='titulocontenedor'>App - Clima</div>
         <div className='comentariocontenedor'>
           Consumir api mediante React-js, se implementarón estilos con bootstrap.
@@ -105,6 +137,21 @@ const Proyectos = () => {
 
 </div>
 
+
+<div className='contenedorproyecto' >
+
+<div> <a href="https://jhonshua.github.io/App-convercion-monedas/" target="_blank"><img className='imagendeproyecto' src={convercion} alt="" /></a></div> 
+      
+      <div className='contenedorinf'>
+        <div className='imgminiatura'><img className='logotecnologia' src={git} alt="no found" /> <img className='logotecnologia' src={bootstrap} alt="no found" /><img className='logotecnologia' src={typescrip} alt=" no found" /><img className='logotecnologia' src={react1} alt="no found" /></div>
+        <div className='titulocontenedor'>App - Convercion de monedas fiat</div>
+        <div className='comentariocontenedor'>
+       Realizamos una App qe calcula el precio del USD al precio del dia por el BCV en esta app consumimos una api con una 
+       peticion post utilizando axios y la libreria React , dimos estilos con css y bootstrap 5.
+        </div><hr />
+    </div>
+
+</div>
            
 
 <div className='contenedor2proyectos'>
