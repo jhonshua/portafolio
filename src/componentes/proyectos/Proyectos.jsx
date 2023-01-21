@@ -92,7 +92,7 @@ const Proyectos = () => {
         <div className='imgminiatura'> <img className='logotecnologia' src={mysql} alt="no found" /><img className='logotecnologia' src={bootstrap} alt=" no found" /><img className='logotecnologia' src={Figma} alt="no found" /><img className='logotecnologia' src={veu} alt=" no found" /></div>
         <div className='titulocontenedor'>Lista de tareas javascript.</div>
         <div className='comentariocontenedor'>
-          Programación bajo entorno de javascript, manejo de useState React, manejo de los hook react , formulario y filtros . Maquetacion y manejo de diversas herramientas de diseño.
+          Programación bajo entorno de javascript, manejo de libreria Vue, formulario y filtros . Maquetacion y manejo de diversas herramientas de diseño.
           deploy del proyecto, manejo de GitHub y Visual Estudio Code.
         </div><hr />
     </div>
@@ -164,4 +164,4 @@ const Proyectos = () => {
   )
 }
 
-export default Proyectos
+export default Proyectos;
