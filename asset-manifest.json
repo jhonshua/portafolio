@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.592ae7e6.css",
-    "main.js": "/portafolio/static/js/main.7a3fa4c7.js",
+    "main.js": "/portafolio/static/js/main.30ade1bc.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/clima.png": "/portafolio/static/media/clima.88513cede1fe95d48c47.png",
     "static/media/convercio.png": "/portafolio/static/media/convercio.bec8a295b643b0cd2049.png",
     "static/media/fondo3.png": "/portafolio/static/media/fondo3.b0582f7bdbaa9378e18d.png",
+    "static/media/food.png": "/portafolio/static/media/food.78c98bff53f08664237b.png",
     "static/media/portadacolores1.png": "/portafolio/static/media/portadacolores1.42dfe38bfb5d185c082a.png",
     "static/media/rick and morty.png": "/portafolio/static/media/rick and morty.00ae3e5a1235c819c1a1.png",
     "static/media/aplicacion.png": "/portafolio/static/media/aplicacion.5d3c95a6470c7e3e1686.png",
@@ -14,13 +15,17 @@
     "static/media/react.png": "/portafolio/static/media/react.da363b94e54e6deee792.png",
     "static/media/GitHub1.png": "/portafolio/static/media/GitHub1.a219fbca80674c28763a.png",
     "static/media/github.png": "/portafolio/static/media/github.0e2e3a9bbfe6fda57cbe.png",
+    "static/media/mysql.png": "/portafolio/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/pngwing.com (6).png": "/portafolio/static/media/pngwing.com (6).205c6e1cf88f5fb991e4.png",
     "static/media/sql.png": "/portafolio/static/media/sql.205c6e1cf88f5fb991e4.png",
     "static/media/figma.png": "/portafolio/static/media/figma.de9ddc6c2c43c542a17e.png",
     "static/media/Rectangle 2.png": "/portafolio/static/media/Rectangle 2.52fbb87aa1e2a61e079a.png",
     "static/media/correo.png": "/portafolio/static/media/correo.08faf50832c29185ae0e.png",
+    "static/media/wedpack.png": "/portafolio/static/media/wedpack.09a1a1112c577c279435.png",
     "static/media/css.png": "/portafolio/static/media/css.74ff0b5fd86f9eadddd3.png",
     "static/media/react y redux.png": "/portafolio/static/media/react y redux.a05453ce3fe3ce0de779.png",
     "static/media/git.png": "/portafolio/static/media/git.7e19ced30f7817541e65.png",
+    "static/media/javascript.png": "/portafolio/static/media/javascript.166865dacb77d214f485.png",
     "static/media/javscript.png": "/portafolio/static/media/javscript.166865dacb77d214f485.png",
     "static/media/proyecto2.png": "/portafolio/static/media/proyecto2.4e4e3ff2539cc7e5c310.png",
     "static/media/linki.png": "/portafolio/static/media/linki.668fe687f5d2082add1c.png",
@@ -34,11 +39,11 @@
     "static/media/sequelize.png": "/portafolio/static/media/sequelize.d98b2554b49e415e0c08.png",
     "index.html": "/portafolio/index.html",
     "main.592ae7e6.css.map": "/portafolio/static/css/main.592ae7e6.css.map",
-    "main.7a3fa4c7.js.map": "/portafolio/static/js/main.7a3fa4c7.js.map",
+    "main.30ade1bc.js.map": "/portafolio/static/js/main.30ade1bc.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.592ae7e6.css",
-    "static/js/main.7a3fa4c7.js"
+    "static/js/main.30ade1bc.js"
   ]
 }
