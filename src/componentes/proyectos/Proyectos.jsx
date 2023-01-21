@@ -107,7 +107,7 @@ const Proyectos = () => {
         <div className='imgminiatura'> <img className='logotecnologia' src={react1} alt="no found" /><img className='logotecnologia' src={Figma} alt=" no found" /><img className='logotecnologia' src={Visual} alt="no found" /></div>
         <div className='titulocontenedor'>App-Pomodoro.</div>
         <div className='comentariocontenedor'>
-          Consumir api mediante React-js, se implementarón estilos con bootstrap.
+          Para este proyecto trabaje con React-js, se implementarón estilos con bootstrap.
           Se trabajaron los estados con la libreria redux.
           Al finalizar el proyecto se aprendió más de estas tecnologias, este proyecto esta más dirigido al frontend.
         </div><hr />
