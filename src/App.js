@@ -1,11 +1,7 @@
 import './App.css';
-import Landing from './componentes/Landing/Landing';
-import About from './componentes/about me/About';
-import Skill from './componentes/skill/Skill.jsx';
-import Softskill1  from './componentes/SoftSkill/SoftSkill1.jsx';
-import Proyectos from './componentes/proyectos/Proyectos';
-import Contactame from './componentes/contactame/Contactame';
-
+import { Route, Routes } from 'react-router-dom'; 
+import Presentacion from './componentes/presentacion/Presentacion';
+import Pagina from './componentes/paginas/Pagina'
 
 
 
@@ -21,21 +17,20 @@ function App() {
 
 
 
-    <div className="App">
+ 
       
   
 
-      <Landing/>
-      <About/>
-      <Skill/>
-      <Softskill1/>
-      <Proyectos/>
-      <Contactame/>
- 
+      <Routes>
+
+      <Route path="/" element={<Presentacion   />}/>
+      <Route path="/home" element={<Pagina />} /> 
       
+      </Routes>
+ 
 
 
-    </div>
+   
   );
 }
 
