@@ -40,6 +40,33 @@
     margin-left:15% ;
  }
 
+ iframe {
+    border-radius: 5%;
+    border-style: solid;
+    border-color: black;
+    border: 0.5rem solid;
+ }
+
+ .titulocontenedor1{
+
+    font-size: 2rem;
+    color: rgb(113, 11, 209);
+    font-family: 'Roboto Slab', serif;
+    margin-top: 1rem;
+    margin-bottom: 5%;
+    margin-left: 7%;
+  
+
+ }
+
+ .juego{
+    margin-left: 20%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+   
+    
+ }
 
  
 .contenedorproyecto{

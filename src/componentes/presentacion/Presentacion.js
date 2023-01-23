@@ -10,7 +10,7 @@ const Presentacion = () => {
     <div>
                 
             <Link to="/home" style={{ textDecoration: 'none' }}>
-              <div className='presentacion'>Bienvenido .</div>
+              <div className='presentacion'> Bienvenido .</div>
             </Link>
             <Particles id="tsparticles" />
     </div>
