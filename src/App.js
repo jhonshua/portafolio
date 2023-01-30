@@ -1,7 +1,11 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom'; 
+import About from './componentes/about me/About';
+import Skill from './componentes/skill/Skill';
+import Softskill1  from './componentes/SoftSkill/SoftSkill1';
+import Proyectos from './componentes/proyectos/Proyectos';
+import Contactame from './componentes/contactame/Contactame';
 import Presentacion from './componentes/presentacion/Presentacion';
-import Pagina from './componentes/paginas/Pagina'
+
 
 
 
@@ -10,27 +14,18 @@ import Pagina from './componentes/paginas/Pagina'
 function App() {
 
 
-
-  
   return (
 
-
-
-
+    
+   <div>
+     <Presentacion/>
+      <About/>
+      <Skill/>
+      <Softskill1/>
+      <Proyectos/>
+      <Contactame/>
+    </div>
  
-      
-  
-
-      <Routes>
-
-      <Route path="/portafolio" element={<Presentacion   />}/>
-      <Route path="/home" element={<Pagina />} /> 
-      
-      </Routes>
- 
-
-
-   
   );
 }
 

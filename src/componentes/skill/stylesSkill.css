@@ -1,0 +1,50 @@
+.ContainerSkill{
+  font-family: 'Arial';
+  text-align: center;
+  background-color: #E9C719;
+  color: black;
+  height: 90rem;
+ 
+}
+
+
+
+
+.titleSkill{
+ margin-bottom: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-color: #E9C719;
+
+}
+
+
+
+.ContenedoresFotos{
+  margin-bottom: 15%;
+  background-color: #E9C719;
+}
+
+
+
+span {
+  height: 100px;
+  background-color: #E9C719;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill1{
+  width: 150vh;
+  
+}
+
+
+
+
+

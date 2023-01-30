@@ -1,22 +1,81 @@
 import React from 'react';
-import Skill1 from './Skill1'
-import Skill2 from  './Skill2'
-import Skill3 from './Skill3'
-import Skill4 from './Skill4';
-import styles from './styles.module.css'
+import { ParallaxProvider, Parallax } from "react-scroll-parallax";
+import "./stylesSkill.css";
+import skill1 from './imagenes/skill1.png';
+import skill2 from './imagenes/skill2.png';
+import skill3 from './imagenes/skill3.png';
+import skill4 from './imagenes/skill4.png';
+import skill5 from './imagenes/skill5.png';
+
 
 const Skill = () => {
+
+
+
   return (
-    <div class={styles.padre}>
 
-      <div class={styles.tituloSkill}>Skill</div>
 
-<div class={styles.Skill}>
-      <Skill1/><br /><br /><br /><br />
-      <Skill2/><br /><br /><br />
-      <Skill3/><br /><br /><br />
-      <Skill4/>
-</div>
+    <div className='ContainerSkill' >
+
+
+
+    <div className='ContenedoresFotos'>
+
+    <div className="titleSkill">Skill</div>
+
+    
+          
+    <ParallaxProvider>
+    
+
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1.5]} >
+        <img className='skill1' src={skill1} alt="no found" />
+      </Parallax>
+  </ParallaxProvider>
+
+   <ParallaxProvider>
+    
+<br/>
+<br/>
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <img className='skill1' src={skill2} alt="no found" />
+      </Parallax>
+  </ParallaxProvider>
+
+   <ParallaxProvider>
+    
+  <br/>
+<br/>
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <img className='skill1' src={skill3} alt="no found" />
+      </Parallax>
+  </ParallaxProvider>
+
+   <ParallaxProvider>
+    
+  <br/>
+<br/>
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <img className='skill1' src={skill4} alt="no found" />
+      </Parallax>
+  </ParallaxProvider>
+
+  <ParallaxProvider>
+    
+  <br/>
+<br/>
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <img className='skill1' src={skill5} alt="no found" />
+      </Parallax>
+  </ParallaxProvider>
+
+
+  
+
+
+  </div>
+
+
 
     </div>
   )

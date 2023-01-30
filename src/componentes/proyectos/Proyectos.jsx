@@ -23,8 +23,8 @@ import veu from './imagenes/vue.png';
 import git from './imagenes/git.png';
 import mysql from './imagenes/mysql.png' 
 import javascript from './imagenes/javascript.png'
-
-
+import calculadora from './imagenes/calculadora.png'
+import vite from './imagenes/vite.png'
 
 
 
@@ -86,6 +86,21 @@ const Proyectos = () => {
           Consumir api mediante react-js, se implementarón estilos con bootstrap .
           se trabajaron los estados con la libreria redux.
           Al finalizar el proyecto se aprendió más de estas tecnologias, este proyecto esta más dirigido al front-end.
+        </div><hr />
+    </div>
+
+</div>
+
+<div className='contenedorproyecto' >
+
+<div> <a href="https://jhonshua.github.io/app-calculadora-/" target="_blank"><img className='imagendeproyecto' src={calculadora} alt="" /></a></div> 
+      
+      <div className='contenedorinf'>
+        <div className='imgminiatura'><img className='logotecnologia' src={vite} alt="no found" /> <img className='logotecnologia' src={bootstrap} alt="no found" /><img className='logotecnologia' src={typescrip} alt=" no found" /><img className='logotecnologia' src={react1} alt="no found" /></div>
+        <div className='titulocontenedor'>App - Calculadora .</div>
+        <div className='comentariocontenedor'>
+       Realizamos una App de una calculadora pero esta vez utilizamos Tipescrip y vite, una combinacion 
+       poderosa y potente.Vite es una nueva herramienta de compilación de interfaz que tiene como objetivo mejorar la experiencia del desarrollador para el desarrollo con la máquina local  .
         </div><hr />
     </div>
 
