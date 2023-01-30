@@ -37,7 +37,7 @@ const Skill = () => {
     
 <br/>
 <br/>
-    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,2]} >
     <img className='skill1' src={skill2} alt="no found" />
       </Parallax>
   </ParallaxProvider>
@@ -46,7 +46,7 @@ const Skill = () => {
     
   <br/>
 <br/>
-    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,3]} >
     <img className='skill1' src={skill3} alt="no found" />
       </Parallax>
   </ParallaxProvider>
@@ -55,7 +55,7 @@ const Skill = () => {
     
   <br/>
 <br/>
-    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,4]} >
     <img className='skill1' src={skill4} alt="no found" />
       </Parallax>
   </ParallaxProvider>
@@ -64,7 +64,7 @@ const Skill = () => {
     
   <br/>
 <br/>
-    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,1]} >
+    <Parallax   translateX={[-20,0, 'easeOutQuint']}  opacity= {[0,5]} >
     <img className='skill1' src={skill5} alt="no found" />
       </Parallax>
   </ParallaxProvider>

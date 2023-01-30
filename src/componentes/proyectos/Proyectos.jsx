@@ -59,7 +59,7 @@ const Proyectos = () => {
 
   <div className='contenedorproyecto' >
 
-<div> <a href="https://deploy-jet-seven.vercel.app/" target="_blank"><img className='imagendeproyecto' src={food} alt="" /></a></div> 
+<div ><a href="https://deploy-jet-seven.vercel.app/" target="_blank"><img className='imagendeproyecto' src={food} alt="" /></a></div> 
       
       <div className='contenedorinf'>
         <div className='imgminiatura'> <img className='logotecnologia' src={reactyredux} alt="no found" /><img className='logotecnologia' src={sql} alt=" no found" /><img className='logotecnologia' src={webpack} alt="no found" /><img className='logotecnologia' src={npm} alt="no found" /></div>
@@ -69,7 +69,7 @@ const Proyectos = () => {
         Afirmar y conectar los conceptos aprendidos en la carrera.
         Aprender y practicar el workflow de GIT.
         Usar y practicar testing.
-        El boilerplate cuenta con dos carpetas: api y client. En estas carpetas estará el código del back-end y el front-end respectivamente.(el codigo se puede ver en el enlace de mi github)
+        El boilerplate cuenta con dos carpetas: api y client. En estas carpetas estará el código del back-end y el front-end respectivamente.
         </div><hr />
     </div>
 

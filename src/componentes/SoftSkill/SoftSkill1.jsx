@@ -18,15 +18,15 @@ const SoftSkill = () => {
 
     
 
-        <Parallax       pages={3} enabled={true} innerStyle={ { backgroundColor: "#232946"  }} >
+        <Parallax       pages={3} enabled={true} innerStyle={ {height:"100%" ,backgroundColor: "#232946" }} >
         
-        <div className='titulo'> Soft Skill</div>
+        <div className='tituloSoft'> Soft Skill</div>
 
 
         <div className='contenido1'> 
-        <p> Las habilidades emocionales e interpersonales son para mí aptitudes 
+         Las habilidades emocionales e interpersonales son para mí aptitudes 
         fundamentales para desenvolvernos en nuestras labores diarias.
-        </p> <br />
+      
         Poder tener una comunicación efectiva se traducirá en una mayor productividad, 
         mejores resultados y en general, más ánimo.
 
@@ -65,7 +65,7 @@ const SoftSkill = () => {
                   
 
 
-                    <ParallaxLayer offset={1} speed={0.8} style={{ overflow: 'hidden', opacity: 5 }}>
+                    <ParallaxLayer offset={1} speed={0.5} style={{ overflow: 'hidden', opacity: 5 }}>
                       
                     <div className='titulo1'> Creatividad y Constancia…</div>
 
@@ -85,7 +85,7 @@ const SoftSkill = () => {
 
 
                                                         
-                    <ParallaxLayer offset={1} speed={0.8} style={{ overflow: 'hidden', opacity: 0.2 }}>
+                    <ParallaxLayer offset={1} speed={0.1} style={{ overflow: 'hidden', opacity: 0.2 }}>
                       <img
                         alt="cloud"
                         src="https://freepngimg.com/thumb/cloud/7-cloud-png-image.png"
