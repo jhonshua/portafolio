@@ -25,6 +25,12 @@ import mysql from './imagenes/mysql.png'
 import javascript from './imagenes/javascript.png'
 import calculadora from './imagenes/calculadora.png'
 import vite from './imagenes/vite.png'
+import gym from './imagenes/gym.png'
+import html from './imagenes/html.png' 
+import css from './imagenes/css.png' 
+
+
+
 
 
 
@@ -53,6 +59,29 @@ const Proyectos = () => {
 
 </div>
  
+
+
+
+
+<div className='contenedorproyecto' >
+
+<div ><a href="https://jhonshua.github.io/Pagina-Comercial-Gym/Casa.html" target="_blank"><img className='imagendeproyecto' src={gym} alt="no found" /></a></div> 
+      
+      <div className='contenedorinf'>
+        <div className='imgminiatura'> <img className='logotecnologia' src={javascript} alt="no found" /><img className='logotecnologia' src={html} alt=" no found" /><img className='logotecnologia' src={css} alt=" no found" /></div>
+        <div className='titulocontenedor'>Responsive web design-web informativa de una compañia.</div>
+        <div className='comentariocontenedor'>
+        Una web comercial es mucho más que la carta de presentación o el escaparate de tu empresa en Internet. Es un comercial 24h, 7 días a la semana y un canal más de relación con las personas a las que quieres llegar, posibles consumidores de tus productos o usuarios de tus servicios. Responsive web design.
+        </div><hr />
+    </div>
+
+</div>
+
+
+
+
+
+
 
 
 
